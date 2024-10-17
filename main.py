@@ -7,4 +7,5 @@ class User:
         pass
 
     def age(self,current_year):
-        pass
+        age = current_year - self.birthyear
+        return age
